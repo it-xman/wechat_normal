@@ -1,0 +1,57 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {}
+    },
+    {
+      "path": "pages/tabBar/home/home",
+      "style": {}
+    },
+    {
+      "path": "pages/tabBar/study/study",
+      "style": {}
+    },
+    {
+      "path": "pages/tabBar/download/download",
+      "style": {}
+    },
+    {
+      "path": "pages/tabBar/user/user",
+      "style": {}
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/study/study",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/tabBar/download/download",
+        "text": "下载"
+      },
+      {
+        "pagePath": "pages/tabBar/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  }
+}
